@@ -1,0 +1,38 @@
+Name: '&bLevel 1'
+Xp-Cost: 10000
+Custom-Lore:
+  Enabled: false
+  Lore:
+    - '&f----------'
+    - '&bThis is an'
+    - '&bExample Lore'
+    - '&bChange it!'
+    - '&f----------'
+Commands:
+  - 'examplecommand %P 2'
+  - 'gamemode creative %P'
+Items:
+  1:
+    Type: IRON_SWORD
+    Name: '&bExample Item'
+    Lore-Name: 'Example Lore Name'
+    Amount: 1
+    Data-Value: 0
+    Enchants:
+      DAMAGE_ALL: 5
+      DURABILITY: 3
+      LOOT_BONUS_MOBS: 3
+  2:
+    Type: DIAMOND
+    Name: 'Example Item 2'
+    Lore-Name: 'Diamond! x 5'
+    Amount: 5
+    Data-Value: 0
+    Enchants:
+  3:
+    Type: WOOL
+    Name: 'Example Red Wool'
+    Lore-Name: 'Red Wool x 7'
+    Amount: 7
+    Data-Value: 14
+    Enchants:

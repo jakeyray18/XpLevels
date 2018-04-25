@@ -1,0 +1,22 @@
+0.0.5:
+  - Added Experience Manager to fix experience issues.
+  - Added Aliases {livelli, lvls}
+0.0.6:
+  - Made GUI Itemstack Lores automated or customizable.
+  - CConfigUtils class renamed to PerPlayerConfigUtils.
+0.0.7:
+  - Fixed canAfford function checking wrong values.
+  - Removed debug message from GuiManager.
+  - Added PerLevelConfigUtils class.
+0.0.8:
+  - Converted to individual configs per level.
+0.0.9:
+  - Added levelTemplate file to show formatting and suggestions.
+0.1.0:
+  - Added a message sent when a player levels up.
+  - Fixed item rewards not being given.
+  - Fixed command rewards not executing.
+  - Adjusted levelDefaults to make per level configs easier to follow.
+  - Removed debug messages.
+0.1.1:
+  - Adjusted levelTemplate again to make it easier.

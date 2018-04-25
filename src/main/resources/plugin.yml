@@ -1,0 +1,14 @@
+name: XpLevels
+main: XpLevels.XpLevelsMain
+version: 0.1.1
+author: GungnirIncarnate
+
+commands:
+  levels:
+    usage: /levels
+    description: Opens levels GUI.
+    aliases: [livelli, lvls]
+
+permissions:
+  levels.use:
+    description: Allows access to /levels command.

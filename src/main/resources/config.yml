@@ -1,0 +1,14 @@
+##GUI Options:
+##Accepted item names can be found here:
+##https://jd.bukkit.org/org/bukkit/Material.html
+GUI:
+  Title: '&6Levels'
+  Locked-Level: POWERED_MINECART
+  Unlocked-Level: HOPPER_MINECART
+  Locked-Final: REDSTONE_BLOCK
+  Unlocked-Final: EMERALD_BLOCK
+
+Messages:
+##level-up will replace %L with the level number.
+  level-up: '&6You have level up to level %L'
+  no-permissions: '&4You do not have permission to use this command'

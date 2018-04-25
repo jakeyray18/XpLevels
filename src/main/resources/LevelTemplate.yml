@@ -1,0 +1,50 @@
+Name: '&bLevel 1'
+Xp-Cost: 10000
+Custom-Lore:
+  Enabled: false
+  Lore:
+    - '&f-------------'
+    - '&bRewards:'
+    - '&cThis lore says'
+    - '&cYou get stuff'
+    - '&cas a reward!'
+    - '&2Awesome!'
+    - '&f-------------'
+
+##Commands will replace %P with the player who unlocked the level.
+Commands:
+##  - 'give %P stone 1'
+##  - 'fly %P'
+
+##Accepted item names can be found here:
+##https://jd.bukkit.org/org/bukkit/Material.html
+##Enchanting system allows for unsafe enchants,
+##E.G. DURABILITY: 10 = Unbreaking 10
+##Enchantment names can be found here:
+##https://jd.bukkit.org/org/bukkit/enchantments/Enchantment.html
+##Lore-Name option is only used when Custom-Lore is not Enabled.
+Items:
+  1:
+    Type: IRON_SWORD
+    Name: '&bIron Excalibur'
+    Lore-Name: 'Iron Excalibur'
+    Amount: 1
+    Data-Value: 0
+    Enchants:
+      DAMAGE_ALL: 5
+      DURABILITY: 3
+      LOOT_BONUS_MOBS: 3
+  2:
+    Type: DIAMOND
+    Name: 'Rawr'
+    Lore-Name: 'Diamond! x 5'
+    Amount: 5
+    Data-Value: 0
+    Enchants:
+  3:
+    Type: WOOL
+    Name: 'Red Wool'
+    Lore-Name: 'Red Died!! HAHA :P'
+    Amount: 7
+    Data-Value: 14
+    Enchants:
